@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact – Philippe Diego</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <nav class="header-right">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="A propos de moi.html">A propos de moi</a></li>
+            <li><a href="projets.html">Mes projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+ 
+    <main>
+      <section class="page-section">
+        <h1 class="page-title">Contact</h1>
+ 
+        <div class="card">
+          <h2>Me contacter</h2>
+          <p>
+            Vous pouvez me contacter via le formulaire ci-dessous ou directement
+            par e-mail à l'adresse institutionnelle indiquée.
+          </p>
+        </div>
+ 
+        <div class="card">
+          <h2>Informations</h2>
+          <p>
+            <i class="fas fa-envelope"></i>&nbsp;
+            Diego.Philippe@etu.univ-grenoble-alpes.fr
+          </p>
+          <p style="margin-top: 0.75rem;">
+            <i class="fab fa-github"></i>&nbsp;
+            <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+          </p>
+          <p style="margin-top: 0.75rem;">
+            <i class="fab fa-linkedin"></i>&nbsp;
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+ 
+        <div class="card">
+          <h2>Formulaire de contact</h2>
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+ 
+            <input type="hidden" name="access_key" value="VOTRE_CLE_API_ICI" />
+ 
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required placeholder="Votre nom" />
+            </div>
+ 
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="votre@email.com" />
+            </div>
+ 
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Votre message"></textarea>
+            </div>
+ 
+            <button type="submit" class="submit-btn">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+ 
+    <footer>
+      <div class="footer-content">
+        <a href="https://github.com" target="_blank" rel="noopener" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
